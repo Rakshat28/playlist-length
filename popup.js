@@ -141,7 +141,7 @@ function calculateTimetable(dailyTime, titlesAndDurations) {
     }
 
     let daysText = timetable.length === 1 ? "day" : "days";
-    let timetableHTML = `<h2 class='timetable-title'>You can finish the playlist in ${dayCount-1} ${daysText}</h2>`;
+    let timetableHTML = `<h2 class='timetable-title'>You can finish the playlist with this schedule}</h2>`;
     let currentDay = 1;
     
     timetableHTML += `<div class="day-card">`; // Start the day card
